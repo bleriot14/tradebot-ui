@@ -1,11 +1,11 @@
 'use client'
 
 import { useState } from 'react'
-import { useTrading } from '../contexts/TradingContext'
+import { useTrading } from '@/components/TradingContext'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 import { List, Plus, X } from 'lucide-react'
-import { ExpandableCard } from './ui/expandable-card'
+import { ExpandableCard } from '@/components/expandable-card'
 
 export default function ListBox() {
   const { whitelist, blacklist, addToList, removeFromList } = useTrading()

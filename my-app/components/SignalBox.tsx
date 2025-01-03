@@ -1,8 +1,8 @@
 'use client'
 
-import { useTrading } from '../contexts/TradingContext'
+import { useTrading } from '@/components/TradingContext'
 import { Signal, TrendingUp, TrendingDown } from 'lucide-react'
-import { ExpandableCard } from './ui/expandable-card'
+import { ExpandableCard } from '@/components/expandable-card'
 
 export default function SignalBox() {
   const { signals } = useTrading()

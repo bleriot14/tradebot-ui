@@ -3,7 +3,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Maximize2, Minimize2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { useTrading } from '../../contexts/TradingContext'
+import { useTrading } from '@/components/TradingContext'
 import { cn } from '@/lib/utils'
 
 interface ExpandableCardProps {

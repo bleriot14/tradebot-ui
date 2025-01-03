@@ -1,10 +1,10 @@
 'use client'
 
-import { useTrading } from '../contexts/TradingContext'
+import { useTrading } from '../components/TradingContext'
 import { Input } from '@/components/ui/input'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { LineChart, Clock, BarChart } from 'lucide-react'
-import { ExpandableCard } from './ui/expandable-card'
+import { ExpandableCard } from '@/components/expandable-card'
 
 export default function BacktestBox() {
   const { 

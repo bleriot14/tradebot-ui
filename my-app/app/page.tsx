@@ -1,7 +1,7 @@
 'use client'
 
 import { Suspense } from 'react'
-import { TradingProvider } from '../contexts/TradingContext'
+import { TradingProvider } from '../components/TradingContext'
 import SignalBox from '../components/SignalBox'
 import ParametersBox from '../components/ParametersBox'
 import ListBox from '../components/ListBox'
