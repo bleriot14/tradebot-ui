@@ -1,6 +1,6 @@
 'use client'
 
-import { useTrading } from '../components/TradingContext'
+import { useTrading } from './TradingContext'
 import { Input } from '@/components/ui/input'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { LineChart, Clock, BarChart } from 'lucide-react'
